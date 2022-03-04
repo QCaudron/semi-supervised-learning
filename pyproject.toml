@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ipl"
+version = "0.1.0"
+description = "Playing around with iterative pseudolabeling."
+authors = ["Quentin CAUDRON <quentincaudron@granular.ag>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.2"
+matplotlib = "^3.5.1"
+pandas = "^1.4.1"
+scikit-learn = "^1.0.2"
+catboost = "^1.0.4"
+tqdm = "^4.63.0"
+ipykernel = "^6.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99
