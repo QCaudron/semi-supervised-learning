@@ -208,8 +208,6 @@ def main(classes, n_trees, n_repetitions, n_iterations):
             "conf_interval": np.array(conf_interval_results).tolist(),
         }
 
-    breakpoint()
-
     # Write results
     results = {
         "full_accuracy": float(full_accuracy),
